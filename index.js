@@ -8,5 +8,6 @@ server.use(express.json())
 server.use(postsRouter)
 
 server.listen(port, () => {
-    console.log(`Server running on port ${port}`)
+    console.log(`Server running at http://localhost:${port}`)
 })
+
